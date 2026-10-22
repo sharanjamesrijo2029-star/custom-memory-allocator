@@ -1,0 +1,13 @@
+Initializing Custom Dynamic Memory Allocator (First-Fit Strategy)...
+
+Allocating p1 (128 bytes), p2 (256 bytes), p3 (512 bytes)...
+
+--- HEAP DIAGNOSTICS & DUMP ---
+Block 0: [ALLOCATED] | Address: 00408020 | Payload Size: 128 bytes
+Block 1: [ALLOCATED] | Address: 004080B0 | Payload Size: 256 bytes
+Block 2: [ALLOCATED] | Address: 004081C0 | Payload Size: 512 bytes
+Block 3: [FREE]      | Address: 004083D0 | Payload Size: 64576 bytes
+--------------------------------
+Total Allocated Space: 896 bytes (3 blocks)
+Total Free Space:      64576 bytes (1 blocks)
+--------------------------------
